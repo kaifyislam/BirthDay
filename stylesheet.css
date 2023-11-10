@@ -1078,12 +1078,13 @@ audio {
 .balloons {
 	position: fixed;
 	bottom: -200px;
-	opacity: 0.6;
+	opacity: 1.2;
 	z-index: 99;
-	width: 100px;
-	height: 183px;
+	width: 150px;
+	height: 200px;
 	background-repeat: no-repeat no-repeat;
 	background-size: 100px 183px;
+	border-radius: 15%;
 }
 .balloons h2 {
 	text-transform: uppercase;
@@ -1097,22 +1098,22 @@ audio {
 	background-image: url('img1.jpg');
 }
 #b2,#b22 {
-	background-image: url('img1.jpg');
+	background-image: url('img2.jpg');
 }
 #b3,#b33 {
 	background-image: url('img3.jpg');
 }
 #b4,#b44{
-	background-image: url('b4.png');
+	background-image: url('img4.jpg');
 }
 #b5,#b55{
-	background-image: url('b5.png');
+	background-image: url('img5.jpg');
 }
 #b6,#b66{
-	background-image: url('b6.png');
+	background-image: url('img6.jpg');
 }
 #b7,#b77{
-	background-image: url('b7.png');
+	background-image: url('img3.png');
 }
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
