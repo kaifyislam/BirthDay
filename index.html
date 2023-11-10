@@ -26,18 +26,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet/less" href="cake.less">
 	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>
-	 <style>
-        /* Added styles for images in the corners */
-        img.corner-image {
-            width: 30%;
-            position: absolute;
-        }
-
-        img.top-left { top: 0; left: 0; }
-        img.top-right { top: 0; right: 0; }
-        img.bottom-left { bottom: 0; left: 0; }
-        img.bottom-right { bottom: 0; right: 0; }
-    </style>
+	
 </head>
 
 <body>
@@ -94,7 +83,10 @@
 		<div class="row">
 			<div class="col-md-12 text-center">
 				<img src="banner.png" class="bannar">
-				<img src="img2.jpg" class="corner-image top-left">
+				<img src="img2.jpg" style="width: 30%; position: absolute; top: 0; left: 0;">
+                                <img src="your_image2.jpg" style="width: 30%; position: absolute; top: 0; right: 0;">
+                                <img src="your_image3.jpg" style="width: 30%; position: absolute; bottom: 0; left: 0;">
+                                <img src="your_image4.jpg" style="width: 30%; position: absolute; bottom: 0; right: 0;">
 				
 			</div>
 		</div>
