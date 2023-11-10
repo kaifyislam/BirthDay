@@ -1094,13 +1094,13 @@ audio {
 	display: none;
 }
 #b1,#b11 {
-	background-image: url('b1.png');
+	background-image: url('img1.jpg');
 }
 #b2,#b22 {
-	background-image: url('b2.png');
+	background-image: url('img1.jpg');
 }
 #b3,#b33 {
-	background-image: url('b3.png');
+	background-image: url('img3.jpg');
 }
 #b4,#b44{
 	background-image: url('b4.png');
