@@ -1095,25 +1095,25 @@ audio {
 	display: none;
 }
 #b1,#b11 {
-	background-image: url('img6.jpg');
+	background-image: url('img9.png');
 }
 #b2,#b22 {
-	background-image: url('img7.jpg');
+	background-image: url('img7.png');
 }
 #b3,#b33 {
-	background-image: url('img8.jpg');
+	background-image: url('img8.png');
 }
 #b4,#b44{
-	background-image: url('img9.jpg');
+	background-image: url('img9.png');
 }
 #b5,#b55{
-	background-image: url('img10.jpg');
+	background-image: url('img10.png');
 }
 #b6,#b66{
-	background-image: url('img11.jpg');
+	background-image: url('img11.png');
 }
 #b7,#b77{
-	background-image: url('img12.jpg');
+	background-image: url('img12.png');
 }
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
